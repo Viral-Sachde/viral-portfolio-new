@@ -20,8 +20,8 @@ const fontBody = Inter({
 export default function Layout({ children }: any) {
   return (
     <html lang="en"><head>
-     <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js" />
-      <Script type="text/javascript" src="/script.js"  />
+     <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js" ></Script>
+      <Script type="text/javascript" src="/script.js"></Script>
     </head>
       <body
         className={cn(
