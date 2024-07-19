@@ -3,6 +3,7 @@
 import { Inter } from 'next/font/google'
 import { cn } from '@/lib/utils'
 import './globals.css'
+import Script from 'next/script'
 
 const fontHeading = Inter({
   subsets: ['latin'],
@@ -19,9 +20,8 @@ const fontBody = Inter({
 export default function Layout({ children }: any) {
   return (
     <html lang="en"><head>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
-
-      <script type="text/javascript" src="/script.js"></script>
+     <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js" />
+      <Script type="text/javascript" src="/script.js"  />
     </head>
       <body
         className={cn(

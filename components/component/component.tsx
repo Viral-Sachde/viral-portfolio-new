@@ -62,7 +62,7 @@ export function Component() {
                 <div className="rounded-full bg-muted p-2 text-4xl">👻</div>
               </div>
               <p className="text-muted-foreground font-['Merriweather', 'serif']">
-                I'm a passionate full-stack developer with a strong background in building modern, scalable, and
+                I&apos;m a passionate full-stack developer with a strong background in building modern, scalable, and
                 user-friendly web applications. I specialize in JavaScript, React, Node.js, and various other
                 technologies.
               </p>
@@ -171,7 +171,7 @@ export function Component() {
         <section id="projects" className="container mx-auto py-12 px-4 md:py-24 md:px-6">
           <div className="space-y-4 text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">My Projects</h2>
-            <p className="text-muted-foreground">Check out some of the projects I've worked on.</p>
+            <p className="text-muted-foreground">Check out some of the projects I&apos;ve worked on.</p>
           </div>
           <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <Card>
@@ -305,7 +305,7 @@ export function Component() {
   )
 }
 
-function CalendarDaysIcon(props) {
+function CalendarDaysIcon(props :any) {
   return (
     <svg
       {...props}
@@ -334,7 +334,7 @@ function CalendarDaysIcon(props) {
 }
 
 
-function CloudIcon(props) {
+function CloudIcon(props:any) {
   return (
     <svg
       {...props}
@@ -354,7 +354,7 @@ function CloudIcon(props) {
 }
 
 
-function CodeIcon(props) {
+function CodeIcon(props:any) {
   return (
     <svg
       {...props}
@@ -375,7 +375,7 @@ function CodeIcon(props) {
 }
 
 
-function CodepenIcon(props) {
+function CodepenIcon(props:any) {
   return (
     <svg
       {...props}
@@ -399,7 +399,7 @@ function CodepenIcon(props) {
 }
 
 
-function DatabaseIcon(props) {
+function DatabaseIcon(props:any) {
   return (
     <svg
       {...props}
@@ -421,7 +421,7 @@ function DatabaseIcon(props) {
 }
 
 
-function DockIcon(props) {
+function DockIcon(props:any) {
   return (
     <svg
       {...props}
@@ -443,7 +443,7 @@ function DockIcon(props) {
 }
 
 
-function EclipseIcon(props) {
+function EclipseIcon(props:any) {
   return (
     <svg
       {...props}
@@ -464,7 +464,7 @@ function EclipseIcon(props) {
 }
 
 
-function GitGraphIcon(props) {
+function GitGraphIcon(props:any) {
   return (
     <svg
       {...props}
@@ -489,7 +489,7 @@ function GitGraphIcon(props) {
 }
 
 
-function MenuIcon(props) {
+function MenuIcon(props:any) {
   return (
     <svg
       {...props}
@@ -511,7 +511,7 @@ function MenuIcon(props) {
 }
 
 
-function NetworkIcon(props) {
+function NetworkIcon(props:any) {
   return (
     <svg
       {...props}
@@ -535,7 +535,7 @@ function NetworkIcon(props) {
 }
 
 
-function TypeIcon(props) {
+function TypeIcon(props:any) {
   return (
     <svg
       {...props}
@@ -557,7 +557,7 @@ function TypeIcon(props) {
 }
 
 
-function XIcon(props) {
+function XIcon(props:any) {
   return (
     <svg
       {...props}

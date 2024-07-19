@@ -60,7 +60,7 @@ export default function Component() {
               </div><br></br><br></br>
               <p className="text-muted-foreground text-center font-['Merriweather', 'serif']">
 
-                I'm a passionate full-stack developer with a strong background in building modern, scalable, and
+                I&apos;m a passionate full-stack developer with a strong background in building modern, scalable, and
                 user-friendly web applications. I specialize in JavaScript, React, Node.js, and various other
                 technologies.
               </p>
@@ -170,7 +170,7 @@ export default function Component() {
         <section id="projects" className="container mx-auto py-12 px-4 md:py-24 md:px-6">
           <div className="space-y-4 text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-['gilroy']">My<span className="font-[MyFont] font-bold text-5xl italic ">Projects.</span></h2>
-            <p className="text-muted-foreground">Check out some of the projects I've worked on.</p>
+            <p className="text-muted-foreground">Check out some of the projects I&apos;ve worked on.</p>
           </div>
           <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <Card>
