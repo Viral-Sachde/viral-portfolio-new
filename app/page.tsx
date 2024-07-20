@@ -55,7 +55,7 @@ export default function Component() {
                 </div>
                 <div className="rounded-full p-2 text-xl  absolute top-[13%] left-[70%] sm:top-[35%] sm:left-[43%]">  <img src="/emoji/2.webp" width={125} height={125} alt="emoji2" className="rounded-full h-20 w-20 sm:h-[125px] sm:w-[125px]" />
                 </div>
-                <div className="rounded-full  p-2 text-xl absolute top-[20.3%] right-[29%]  sm:top-[26%] sm:right-[13%]">  <img src="/emoji/3.webp" width={125} height={125} alt="emoji3" className="rounded-full h-28 w-28 sm:h-[125px] sm:w-[125px]" />
+                <div className="rounded-full  p-2 text-xl absolute top-[24%] right-[29%]  sm:top-[26%] sm:right-[13%]">  <img src="/emoji/3.webp" width={125} height={125} alt="emoji3" className="rounded-full h-28 w-28 sm:h-[125px] sm:w-[125px]" />
                 </div>
               </div><br></br><br></br>
               <p className="text-muted-foreground text-center font-['Merriweather', 'serif']">
