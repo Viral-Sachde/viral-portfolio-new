@@ -53,9 +53,9 @@ export default function Component() {
               <div className="huhu-lala flex items-center text-center gap-4">
                 <div className="rounded-full p-2 text-xl  absolute top-[8%] left-[10%] sm:top-[15%] sm:left-[13%] md:top-[15%] md:left-[13%]">                <img src="/emoji/1.webp" width={125} height={125} alt="emoji" className="rounded-full h-20 w-20 sm:h-[125px] sm:w-[125px]" />
                 </div>
-                <div className="rounded-full p-2 text-xl absolute top-[30%] right-[35%]  sm:top-[26%] sm:right-[15%] md:top-[26%] md:right-[15%] ">  <img src="/emoji/2.webp" width={125} height={125} alt="emoji2" className="rounded-full h-28 w-28 sm:h-[125px] sm:w-[125px]" />
+                <div className="rounded-full p-2 text-xl absolute top-[32%] right-[35%]  sm:top-[26%] sm:right-[15%] md:top-[26%] md:right-[15%] ">  <img src="/emoji/2.webp" width={125} height={125} alt="emoji2" className="rounded-full h-20 w-20 sm:h-[125px] sm:w-[125px]" />
                 </div>
-                <div className="rounded-full  p-2 text-xl   absolute top-[13%] left-[70%] sm:top-[36%] sm:left-[44%] md:top-[36%] md:left-[44%]">  <img src="/emoji/3.webp" width={125} height={125} alt="emoji3" className="rounded-full h-20 w-20 sm:h-[125px] sm:w-[125px]" />
+                <div className="rounded-full  p-2 text-xl   absolute top-[13%] left-[70%] sm:top-[36%] sm:left-[44%] md:top-[36%] md:left-[44%]">  <img src="/emoji/3.webp" width={125} height={125} alt="emoji3" className="rounded-full h-28 w-28 sm:h-[125px] sm:w-[125px]" />
                 </div>
               </div><br></br><br></br>
               <p className="text-muted-foreground text-center font-['Merriweather', 'serif']">
