@@ -64,7 +64,7 @@ export default function Component() {
                 user-friendly web applications. I specialize in JavaScript, React, Node.js, and various other
                 technologies.
               </p>
-              <div className="huhu-lala1 flex items-center justify-center"><div></div>
+              <div className="huhu-lala flex items-center justify-center"><div></div>
                 <img src="/emoji/4.webp" width={250} height={250} alt="Viral Sachde" className="rounded-full" />
               </div>
             </div>
