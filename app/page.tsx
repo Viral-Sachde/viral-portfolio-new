@@ -51,11 +51,11 @@ export default function Component() {
               <h1 className="text-5xl font-bold tracking-tighter sm:text-6xl md:text-8xl font-['', 'serif']">
                 <span className="font-['gilroy']">Full </span><span className="font-['MyFont'] italic">Stack </span><span className=" font-['gilroy','serif']">Developer.</span></h1>
               <div className="huhu-lala flex items-center text-center gap-4">
-                <div className="rounded-full p-2 text-xl  absolute top-[65px] left-[10px] sm:top-[100px] sm:left-[180px]">                <img src="/emoji/1.webp" width={125} height={125} alt="emoji" className="rounded-full " />
+                <div className="rounded-full p-2 text-xl  absolute top-[8%] left-[12%] sm:top-[15%] sm:left-[13%]">                <img src="/emoji/1.webp" width={125} height={125} alt="emoji" className="rounded-full h-20 w-20 sm:h-[125px] sm:w-[125px]" />
                 </div>
-                <div className="rounded-full p-2 text-xl  absolute top-[110px] left-[275px] sm:top-[210px] sm:left-[585px]">  <img src="/emoji/2.webp" width={125} height={125} alt="emoji2" className="rounded-full" />
+                <div className="rounded-full p-2 text-xl  absolute top-[13%] left-[70%] sm:top-[35%] sm:left-[43%]">  <img src="/emoji/2.webp" width={125} height={125} alt="emoji2" className="rounded-full h-20 w-20 sm:h-[125px] sm:w-[125px]" />
                 </div>
-                <div className="rounded-full  p-2 text-xl absolute top-[180px] right-[113px]  sm:top-[168px] sm:right-[170px]">  <img src="/emoji/3.webp" width={125} height={125} alt="emoji3" className="rounded-full" />
+                <div className="rounded-full  p-2 text-xl absolute top-[20.3%] right-[29%]  sm:top-[26%] sm:right-[13%]">  <img src="/emoji/3.webp" width={125} height={125} alt="emoji3" className="rounded-full h-28 w-28 sm:h-[125px] sm:w-[125px]" />
                 </div>
               </div><br></br><br></br>
               <p className="text-muted-foreground text-center font-['Merriweather', 'serif']">
@@ -73,7 +73,7 @@ export default function Component() {
         </section>
         <section id="skills" className="container mx-auto py-12 px-4 md:py-24 md:px-6">
           <div className="space-y-4 text-center">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-['gilroy']">My<span className="font-[MyFont]  text-5xl italic ">Skills.</span></h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-['gilroy']">Skills.</h2>
             <p className="text-muted-foreground">
               I have a diverse set of skills that allow me to tackle a wide range of web development projects.
             </p>
@@ -119,7 +119,7 @@ export default function Component() {
         </section>
         <section id="experience" className="container mx-auto py-12 px-4 md:py-24 md:px-6">
           <div className="space-y-4 text-center">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-['gilroy']">My<span className="font-[MyFont] font-bold text-5xl italic ">Experiances.</span></h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-['gilroy']">Experiances.</h2>
             <p className="text-muted-foreground">
               I have worked on a variety of projects and gained valuable experience in the industry.
             </p>
@@ -169,7 +169,7 @@ export default function Component() {
         </section>
         <section id="projects" className="container mx-auto py-12 px-4 md:py-24 md:px-6">
           <div className="space-y-4 text-center">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-['gilroy']">My<span className="font-[MyFont] font-bold text-5xl italic ">Projects.</span></h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-['gilroy']">Projects.</h2>
             <p className="text-muted-foreground">Check out some of the projects I&apos;ve worked on.</p>
           </div>
           <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -283,9 +283,20 @@ export default function Component() {
             <img src="/placeholder.svg" width={300} height={300} alt="Viral Sachde" className="rounded-full" />
           </div>
         </section>
+        <section id="resume" className="container mx-auto py-12 px-4 md:py-24 md:px-6">
+          <div className="space-y-4 text-center">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-['gilroy']">Get resume.</h2>
+            <p className="text-muted-foreground">
+              Feel free to reach out to me for any inquiries or collaboration opportunities.
+            </p>
+
+          </div>
+
+        </section>
+
         <section id="contact" className="container mx-auto py-12 px-4 md:py-24 md:px-6">
           <div className="space-y-4 text-center">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-['gilroy']">Get in<span className="font-[MyFont] font-bold text-5xl italic "> touch.</span></h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-['gilroy']">Get in touch.</h2>
             <p className="text-muted-foreground">
               Feel free to reach out to me for any inquiries or collaboration opportunities.
             </p>
