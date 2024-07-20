@@ -19,6 +19,7 @@ const fontBody = Inter({
 })
 
 export default function Layout({ children }: any) {
+  
   return (
     <html lang="en"><head>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js" ></script>
