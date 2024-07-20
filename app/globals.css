@@ -28,12 +28,6 @@
 }
 
 
-
-@font-face {
-  font-family: 'gilroy';
-  src: url('/new-portfolio/public/gilroy.ttf') format('ttf');
-}
-
 @layer base {
   * {
     @apply border-border;
