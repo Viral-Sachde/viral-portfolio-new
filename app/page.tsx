@@ -51,11 +51,11 @@ export default function Component() {
               <h1 className="text-5xl font-bold tracking-tighter sm:text-6xl md:text-8xl font-['', 'serif']">
                 <span className="font-['gilroy']">Full </span><span className="font-['MyFont'] italic">Stack </span><span className=" font-['gilroy','serif']">Developer.</span></h1>
               <div className="huhu-lala flex items-center text-center gap-4">
-                <div className="rounded-full p-2 text-xl  absolute top-[8%] left-[12%] sm:top-[15%] sm:left-[13%]">                <img src="/emoji/1.webp" width={125} height={125} alt="emoji" className="rounded-full h-20 w-20 sm:h-[125px] sm:w-[125px]" />
+                <div className="rounded-full p-2 text-xl  absolute top-[8%] left-[10%] sm:top-[15%] sm:left-[13%] md:top-[15%] md:left-[13%]">                <img src="/emoji/1.webp" width={125} height={125} alt="emoji" className="rounded-full h-20 w-20 sm:h-[125px] sm:w-[125px]" />
                 </div>
-                <div className="rounded-full p-2 text-xl  absolute top-[13%] left-[70%] sm:top-[35%] sm:left-[43%]">  <img src="/emoji/2.webp" width={125} height={125} alt="emoji2" className="rounded-full h-20 w-20 sm:h-[125px] sm:w-[125px]" />
+                <div className="rounded-full p-2 text-xl absolute top-[26%] right-[35%]  sm:top-[26%] sm:right-[15%] md:top-[26%] md:right-[15%] ">  <img src="/emoji/2.webp" width={125} height={125} alt="emoji2" className="rounded-full h-20 w-20 sm:h-[125px] sm:w-[125px]" />
                 </div>
-                <div className="rounded-full  p-2 text-xl absolute top-[24%] right-[29%]  sm:top-[26%] sm:right-[13%]">  <img src="/emoji/3.webp" width={125} height={125} alt="emoji3" className="rounded-full h-28 w-28 sm:h-[125px] sm:w-[125px]" />
+                <div className="rounded-full  p-2 text-xl   absolute top-[13%] left-[70%] sm:top-[36%] sm:left-[44%] md:top-[36%] md:left-[44%]">  <img src="/emoji/3.webp" width={125} height={125} alt="emoji3" className="rounded-full h-28 w-28 sm:h-[125px] sm:w-[125px]" />
                 </div>
               </div><br></br><br></br>
               <p className="text-muted-foreground text-center font-['Merriweather', 'serif']">
@@ -65,7 +65,7 @@ export default function Component() {
                 technologies.
               </p>
               <div className="huhu-lala flex items-center justify-center"><div></div>
-                <img src="/emoji/4.webp" width={250} height={250} alt="Viral Sachde" className="rounded-full" />
+                <img src="/emoji/4.webp" width={200} height={200} alt="Viral Sachde" className="rounded-full" />
               </div>
             </div>
 
