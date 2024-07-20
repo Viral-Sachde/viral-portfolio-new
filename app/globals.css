@@ -27,10 +27,7 @@
   }
 }
 
-@font-face {
-  font-family: 'MyFont';
-  src: url('/new-portfolio/public/denton.otf') format('otf');
-}
+
 
 @font-face {
   font-family: 'gilroy';
