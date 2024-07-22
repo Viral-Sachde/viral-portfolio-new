@@ -49,7 +49,7 @@ export default function Component() {
           <div className="grid gap-8  md:gap-16">
             <div className="space-y-4 text-center">
               <h1 className="text-5xl font-bold tracking-tighter sm:text-6xl md:text-8xl font-['', 'serif']">
-                <span className="font-['gilroy']">Full </span><span className="font-['denton','serif'] italic">Stack </span><span className=" font-['gilroy','serif']">Developer.</span></h1>
+                <span className="font-['gilroy']">Full </span><span className="font-['denton','serif'] italic ">Stack </span><span className=" font-['gilroy','serif']">Developer.</span></h1>
               <div className="huhu-lala flex items-center text-center gap-4">
                 <div className="rounded-full p-2 text-xl  absolute top-[8%] left-[10%] sm:top-[15%] sm:left-[13%] md:top-[15%] md:left-[13%]">                <img src="/emoji/1.webp" width={125} height={125} alt="emoji" className="rounded-full h-20 w-20 sm:h-[125px] sm:w-[125px]" />
                 </div>
@@ -279,8 +279,8 @@ export default function Component() {
           </div>
         </section>
         <section id="bigemoji" className="container mx-auto py-12 px-4 md:py-24 md:px-6">
-          <div className="flex items-center justify-center"><div></div>
-            <img src="/placeholder.svg" width={300} height={300} alt="Viral Sachde" className="rounded-full" />
+          <div className="huhu-lala flex items-center justify-center"><div></div>
+            <img src="/emoji/5.webp" width={200} height={200} alt="Viral Sachde" className="rounded-full" />
           </div>
         </section>
         <section id="resume" className="container mx-auto py-12 px-4 md:py-24 md:px-6">

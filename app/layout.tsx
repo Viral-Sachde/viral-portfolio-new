@@ -17,7 +17,7 @@ const fontBody = Inter({
   display: 'swap',
   variable: '--font-body',
 })
-
+ 
 export default function Layout({ children }: any) {
   
   return (
