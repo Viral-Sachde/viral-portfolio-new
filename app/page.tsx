@@ -173,7 +173,7 @@ export default function Component() {
                   </div>
                 </div>
                 <p className="text-muted-foreground text-sm">
-                  As a Django Developer intern at Anant SoftComputing, I gained valuable experience in building ASC's website using Django, Bootstrap, Tailwind, Django-CMS, and MySQL, reinforcing my passion for innovative web applications.
+                  As a Django Developer intern at Anant SoftComputing, I gained valuable experience in building ASC&apos;s website using Django, Bootstrap, Tailwind, Django-CMS, and MySQL, reinforcing my passion for innovative web applications.
                 </p>
               </CardContent>
             </Card>
