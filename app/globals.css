@@ -26,6 +26,7 @@
     --radius: 0.5rem;
     --font-playfair-display: 'Playfair Display', serif;
     --font-montserrat: 'Montserrat', sans-serif;
+    --font-playwrite:"Playfair Display", serif;
 
   }
 }
@@ -62,6 +63,10 @@ body {
 
 .montserrat {
   font-family: var(--font-montserrat);
+}
+
+.playwrite {
+  font-family: var(--font-playwrite);
 }
 
 .denton {

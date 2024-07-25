@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { useEffect } from "react"
 import Script from "next/script"
+import { BriefcaseIcon } from "lucide-react"
 
 
 export default function Component() {
@@ -50,15 +51,15 @@ export default function Component() {
             <div className="space-y-4 text-center">
               <h1 className="text-5xl font-bold tracking-tighter sm:text-6xl md:text-8xl ">
                 <span className="text-5xl font-bold tracking-tighter sm:text-6xl md:text-8xl font-montserrat">Full </span>
-                <span className="text-5xl font-bold tracking-tighter sm:text-6xl md:text-8xl font-denton italic">Stack </span>
+                <span className="text-5xl font-bold tracking-tighter sm:text-6xl md:text-8xl font-playfair font-semibold italic">Stack </span>
                 <span className="font-montserrat">Developer.</span>
               </h1>
               <div className="huhu-lala flex items-center text-center gap-4">
-                <div className="rounded-full p-2 text-xl  absolute top-[8%] left-[10%] sm:top-[15%] sm:left-[13%] md:top-[15%] md:left-[13%]">                <img src="/emoji/1.webp" width={125} height={125} alt="emoji" className="rounded-full h-20 w-20 sm:h-[125px] sm:w-[125px]" />
+                <div className="rounded-full p-2 text-xl  absolute top-[8%] left-[6%] sm:top-[15%] sm:left-[13%] md:top-[15%] md:left-[10%]">                <img src="/emoji/1.webp" width={125} height={125} alt="emoji" className="rounded-full h-20 w-20 sm:h-[125px] sm:w-[125px]" />
                 </div>
-                <div className="rounded-full p-2 text-xl absolute top-[32%] right-[35%]  sm:top-[26%] sm:right-[15%] md:top-[26%] md:right-[15%] ">  <img src="/emoji/3.webp" width={125} height={125} alt="emoji2" className="rounded-full h-20 w-20 sm:h-[125px] sm:w-[125px]" />
+                <div className="rounded-full p-2 text-xl absolute top-[25%] right-[35%]  sm:top-[26%] sm:right-[15%] md:top-[26%] md:right-[10%] ">  <img src="/emoji/3.webp" width={125} height={125} alt="emoji2" className="rounded-full h-20 w-20 sm:h-[125px] sm:w-[125px]" />
                 </div>
-                <div className="rounded-full  p-2 text-xl   absolute top-[13%] left-[70%] sm:top-[36%] sm:left-[44%] md:top-[36%] md:left-[44%]">  <img src="/emoji/2.webp" width={125} height={125} alt="emoji3" className="rounded-full h-28 w-28 sm:h-[125px] sm:w-[125px]" />
+                <div className="rounded-full  p-2 text-xl   absolute top-[13%] left-[70%] sm:top-[36%] sm:left-[44%] md:top-[35%] md:left-[44%]">  <img src="/emoji/2.webp" width={125} height={125} alt="emoji3" className="rounded-full h-20 w-20 sm:h-[125px] sm:w-[125px]" />
                 </div>
               </div><br></br><br></br>
               <p className="text-muted-foreground text-center font-['Merriweather', 'serif']">
@@ -130,61 +131,50 @@ export default function Component() {
               I have worked on a variety of projects and gained valuable experience in the industry.
             </p>
           </div>
-          <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            <Card>
-              <CardHeader>
-                <CardTitle>Full-Stack Developer</CardTitle>
-                <CardDescription>
-                  Developed and maintained a complex web application using React, Node.js, and MongoDB.
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="flex items-center gap-2">
-                  <CalendarDaysIcon className="h-5 w-5 text-muted-foreground" />
-                  <span className="text-sm text-muted-foreground">June 2024 - July 2024</span>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8 md:py-6">
+            {/* job 1 */}
+            <Card className="group hover:shadow-lg transition-shadow duration-300">
+              <CardContent className="p-6 md:p-8 space-y-4">
+                <div className="flex items-center gap-4">
+                  <div className="bg-primary rounded-md p-3 flex items-center justify-center group-hover:bg-primary/90 transition-colors">
+                    <BriefcaseIcon className="w-6 h-6 text-primary-foreground" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold">Full Stack Developer</h3>
+                    <p className="text-muted-foreground text-sm">Arkay Apps. | Jun 2024 - Jul 2024</p></div>
                 </div>
+                <p className="text-muted-foreground text-sm">
+                  As a Full Stack Development intern at Arkay Apps, I enhanced my expertise in creating dynamic websites and seamless client-server integration using HTML, CSS, JavaScript, and React.js. </p>
               </CardContent>
             </Card>
-            <Card>
-              <CardHeader>
-                <CardTitle>ReactJS/Next.js Developer</CardTitle>
-                <CardDescription>
-                  Assisted in the development and testing of a web application using Node.js and PostgreSQL.
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="flex items-center gap-2">
-                  <CalendarDaysIcon className="h-5 w-5 text-muted-foreground" />
-                  <span className="text-sm text-muted-foreground">Dec 2023 - Jan 2024</span>
+            <Card className="group hover:shadow-lg transition-shadow duration-300">
+              <CardContent className="p-6 md:p-8 space-y-4">
+                <div className="flex items-center gap-4">
+                  <div className="bg-primary rounded-md p-3 flex items-center justify-center group-hover:bg-primary/90 transition-colors">
+                    <BriefcaseIcon className="w-6 h-6 text-primary-foreground" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold">ReactJS/Next.js Developer</h3>
+                    <p className="text-muted-foreground text-sm">Pavans Group. | Dec 2023 - Jan 2024</p>
+                  </div>
                 </div>
-              </CardContent>
+                <p className="text-muted-foreground text-sm content-justified">
+                  As a React.js/Next.js intern at Pavans Group, I improved my skills in responsive UI, performance optimization, and basic API concepts using React.js, Next.js, and Tailwind.</p>              </CardContent>
             </Card>
-            <Card>
-              <CardHeader>
-                <CardTitle>Django Full Stack Developer</CardTitle>
-                <CardDescription>
-                  Assisted in the development and testing of a web application using Node.js and PostgreSQL.
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="flex items-center gap-2">
-                  <CalendarDaysIcon className="h-5 w-5 text-muted-foreground" />
-                  <span className="text-sm text-muted-foreground">Dec 2023 - Jan 2024</span>
+            <Card className="group hover:shadow-lg transition-shadow duration-300">
+              <CardContent className="p-6 md:p-8 space-y-4">
+                <div className="flex items-center gap-4">
+                  <div className="bg-primary rounded-md p-3 flex items-center justify-center group-hover:bg-primary/90 transition-colors">
+                    <BriefcaseIcon className="w-6 h-6 text-primary-foreground" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold">Django Full Stack Developer</h3>
+                    <p className="text-muted-foreground text-sm">Anant Soft Computing. | Jan 2023 - Mar 2023</p>
+                  </div>
                 </div>
-              </CardContent>
-            </Card>
-            <Card>
-              <CardHeader>
-                <CardTitle>Associate Sponsership Head</CardTitle>
-                <CardDescription>
-                  Assisted in the development and testing of a web application using Node.js and PostgreSQL.
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="flex items-center gap-2">
-                  <CalendarDaysIcon className="h-5 w-5 text-muted-foreground" />
-                  <span className="text-sm text-muted-foreground">Dec 2023 - Jan 2024</span>
-                </div>
+                <p className="text-muted-foreground text-sm">
+                  As a Django Developer intern at Anant SoftComputing, I gained valuable experience in building ASC's website using Django, Bootstrap, Tailwind, Django-CMS, and MySQL, reinforcing my passion for innovative web applications.
+                </p>
               </CardContent>
             </Card>
           </div>
@@ -305,15 +295,24 @@ export default function Component() {
             <img src="/emoji/5.webp" width={200} height={200} alt="Viral Sachde" className="rounded-full" />
           </div>
         </section>
-        <section id="resume" className="container mx-auto py-12 px-4 md:py-20 md:px-6">
-          <div className="space-y-4 text-center">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-montserrat">Get resume.</h2>
-            <p className="text-muted-foreground">
-              Open to inquiries and collaboration opportunities. Please feel free to reach out.
-            </p>
-
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
+          <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
+            <div className="space-y-3">
+              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Get My Resume</h2>
+              <p className="mx-auto max-w-[600px] text-muted-foreground ">
+                Interested in learning more about my background and experience? Download my resume to get all the details.
+              </p>
+            </div>
+            <div className="mx-auto w-full max-w-sm">
+              <Link
+                href="https://viral-sachde-cv.vercel.app"
+                className="inline-flex h-10 w-full items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                prefetch={false}
+              >
+                Get Resume
+              </Link>
+            </div>
           </div>
-
         </section>
 
         <section id="contact" className="container mx-auto py-12 px-4 md:py-20 md:px-6">
