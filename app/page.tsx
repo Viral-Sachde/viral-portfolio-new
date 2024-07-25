@@ -50,7 +50,7 @@ export default function Component() {
             <div className="space-y-4 text-center">
               <h1 className="text-5xl font-bold tracking-tighter sm:text-6xl md:text-8xl ">
                 <span className="text-5xl font-bold tracking-tighter sm:text-6xl md:text-8xl font-montserrat">Full </span>
-                <span className="text-5xl font-bold tracking-tighter sm:text-6xl md:text-8xl font-playfair italic">Stack </span>
+                <span className="text-5xl font-bold tracking-tighter sm:text-6xl md:text-8xl font-denton italic">Stack </span>
                 <span className="font-montserrat">Developer.</span>
               </h1>
               <div className="huhu-lala flex items-center text-center gap-4">

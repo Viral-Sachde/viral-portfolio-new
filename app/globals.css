@@ -63,3 +63,19 @@ body {
 .montserrat {
   font-family: var(--font-montserrat);
 }
+
+.denton {
+
+  @font-face {
+    font-family: 'denton';
+    src: url('/font/denton/denton_test_bold_700-webfont.eot');
+    src: url('/font/denton/denton_test_bold_700-webfont.eot?#iefix') format('embedded-opentype'),
+      url('/font/denton/denton_test_bold_700-webfont.woff2') format('woff2'),
+      url('/font/denton/denton_test_bold_700-webfont.woff') format('woff'),
+      url('/font/denton/denton_test_bold_700-webfont.ttf') format('truetype'),
+      url('/font/denton/denton_test_bold_700-webfont.svg#denton_testbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+  }
+}

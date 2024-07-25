@@ -11,6 +11,7 @@ export default {
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
         playfair: ['Playfair Display', 'serif'],
+        denton: ['denton', 'serif'],
         heading: ['var(--font-heading)', ...fontFamily.sans],
         body: ['var(--font-body)', ...fontFamily.sans]
       },
