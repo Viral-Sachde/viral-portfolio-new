@@ -9,9 +9,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        "montserrat" :"var(--font-montserrat)", 
-        "playfair-display": "var(--font-playfair-display)",
-        // heading: ['var(--font-heading)', ...fontFamily.sans],
+        montserrat: ['Montserrat', 'sans-serif'],
+        playfair: ['Playfair Display', 'serif'],
+        heading: ['var(--font-heading)', ...fontFamily.sans],
         body: ['var(--font-body)', ...fontFamily.sans]
       },
       colors: {
