@@ -9,9 +9,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        "denton" :"var(--font-denton)", 
-        "gilroy": "var(--font-gilroy)",
-        heading: ['var(--font-heading)', ...fontFamily.sans],
+        "montserrat" :"var(--font-montserrat)", 
+        "playfair-display": "var(--font-playfair-display)",
+        // heading: ['var(--font-heading)', ...fontFamily.sans],
         body: ['var(--font-body)', ...fontFamily.sans]
       },
       colors: {
