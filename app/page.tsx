@@ -49,13 +49,13 @@ export default function Component() {
           <div className="grid gap-8  md:gap-16">
             <div className="space-y-4 text-center">
               <h1 className="text-5xl font-bold tracking-tighter sm:text-6xl md:text-8xl font-['', 'serif']">
-                <span className="">Full </span><span className="font-['denton','serif'] italic ">Stack </span><span className=" ">Developer.</span></h1>
+                <span className="montserrat">Full </span><span className="font-['playfair-display','serif'] italic ">Stack </span><span className="montserrat">Developer.</span></h1>
               <div className="huhu-lala flex items-center text-center gap-4">
                 <div className="rounded-full p-2 text-xl  absolute top-[8%] left-[10%] sm:top-[15%] sm:left-[13%] md:top-[15%] md:left-[13%]">                <img src="/emoji/1.webp" width={125} height={125} alt="emoji" className="rounded-full h-20 w-20 sm:h-[125px] sm:w-[125px]" />
                 </div>
-                <div className="rounded-full p-2 text-xl absolute top-[32%] right-[35%]  sm:top-[26%] sm:right-[15%] md:top-[26%] md:right-[15%] ">  <img src="/emoji/2.webp" width={125} height={125} alt="emoji2" className="rounded-full h-20 w-20 sm:h-[125px] sm:w-[125px]" />
+                <div className="rounded-full p-2 text-xl absolute top-[32%] right-[35%]  sm:top-[26%] sm:right-[15%] md:top-[26%] md:right-[15%] ">  <img src="/emoji/3.webp" width={125} height={125} alt="emoji2" className="rounded-full h-20 w-20 sm:h-[125px] sm:w-[125px]" />
                 </div>
-                <div className="rounded-full  p-2 text-xl   absolute top-[13%] left-[70%] sm:top-[36%] sm:left-[44%] md:top-[36%] md:left-[44%]">  <img src="/emoji/3.webp" width={125} height={125} alt="emoji3" className="rounded-full h-28 w-28 sm:h-[125px] sm:w-[125px]" />
+                <div className="rounded-full  p-2 text-xl   absolute top-[13%] left-[70%] sm:top-[36%] sm:left-[44%] md:top-[36%] md:left-[44%]">  <img src="/emoji/2.webp" width={125} height={125} alt="emoji3" className="rounded-full h-28 w-28 sm:h-[125px] sm:w-[125px]" />
                 </div>
               </div><br></br><br></br>
               <p className="text-muted-foreground text-center font-['Merriweather', 'serif']">
@@ -64,14 +64,17 @@ export default function Component() {
                 user-friendly web applications. I specialize in JavaScript, React, Node.js, and various other
                 technologies.
               </p>
-              <div className="huhu-lala flex items-center justify-center"><div></div>
-                <img src="/emoji/4.webp" width={200} height={200} alt="Viral Sachde" className="rounded-full" />
-              </div>
+
             </div>
 
           </div>
         </section>
-        <section id="skills" className="container mx-auto py-12 px-4 md:py-24 md:px-6">
+        <section>
+          <div className="huhu-lala flex items-center justify-center"><div></div>
+            <img src="/emoji/4.webp" width={200} height={200} alt="Viral Sachde" className="rounded-full" />
+          </div>
+        </section>
+        <section id="skills" className="container mx-auto py-12 px-4 md:py-20 md:px-6">
           <div className="space-y-4 text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl ">Skills.</h2>
             <p className="text-muted-foreground">
@@ -117,7 +120,7 @@ export default function Component() {
             </div>
           </div>
         </section>
-        <section id="experience" className="container mx-auto py-12 px-4 md:py-24 md:px-6">
+        <section id="experience" className="container mx-auto py-12 px-4 md:py-20 md:px-6">
           <div className="space-y-4 text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl ">Experiances.</h2>
             <p className="text-muted-foreground">
@@ -135,25 +138,13 @@ export default function Component() {
               <CardContent>
                 <div className="flex items-center gap-2">
                   <CalendarDaysIcon className="h-5 w-5 text-muted-foreground" />
-                  <span className="text-sm text-muted-foreground">June 2021 - Present</span>
+                  <span className="text-sm text-muted-foreground">June 2024 - July 2024</span>
                 </div>
               </CardContent>
             </Card>
             <Card>
               <CardHeader>
-                <CardTitle>Frontend Engineer</CardTitle>
-                <CardDescription>Lorem ipsum</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="flex items-center gap-2">
-                  <CalendarDaysIcon className="h-5 w-5 text-muted-foreground" />
-                  <span className="text-sm text-muted-foreground">September 2019 - May 2021</span>
-                </div>
-              </CardContent>
-            </Card>
-            <Card>
-              <CardHeader>
-                <CardTitle>Intern</CardTitle>
+                <CardTitle>ReactJS/Next.js Developer</CardTitle>
                 <CardDescription>
                   Assisted in the development and testing of a web application using Node.js and PostgreSQL.
                 </CardDescription>
@@ -161,13 +152,41 @@ export default function Component() {
               <CardContent>
                 <div className="flex items-center gap-2">
                   <CalendarDaysIcon className="h-5 w-5 text-muted-foreground" />
-                  <span className="text-sm text-muted-foreground">June 2018 - August 2018</span>
+                  <span className="text-sm text-muted-foreground">Dec 2023 - Jan 2024</span>
+                </div>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardHeader>
+                <CardTitle>Django Full Stack Developer</CardTitle>
+                <CardDescription>
+                  Assisted in the development and testing of a web application using Node.js and PostgreSQL.
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="flex items-center gap-2">
+                  <CalendarDaysIcon className="h-5 w-5 text-muted-foreground" />
+                  <span className="text-sm text-muted-foreground">Dec 2023 - Jan 2024</span>
+                </div>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardHeader>
+                <CardTitle>Associate Sponsership Head</CardTitle>
+                <CardDescription>
+                  Assisted in the development and testing of a web application using Node.js and PostgreSQL.
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="flex items-center gap-2">
+                  <CalendarDaysIcon className="h-5 w-5 text-muted-foreground" />
+                  <span className="text-sm text-muted-foreground">Dec 2023 - Jan 2024</span>
                 </div>
               </CardContent>
             </Card>
           </div>
         </section>
-        <section id="projects" className="container mx-auto py-12 px-4 md:py-24 md:px-6">
+        <section id="projects" className="container mx-auto py-12 px-4 md:py-20 md:px-6">
           <div className="space-y-4 text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl ">Projects.</h2>
             <p className="text-muted-foreground">Check out some of the projects I&apos;ve worked on.</p>
@@ -278,23 +297,23 @@ export default function Component() {
             </Card>
           </div>
         </section>
-        <section id="bigemoji" className="container mx-auto py-12 px-4 md:py-24 md:px-6">
+        <section id="bigemoji" className="container mx-auto py-12 px-4 md:py-20 md:px-6">
           <div className="huhu-lala flex items-center justify-center"><div></div>
             <img src="/emoji/5.webp" width={200} height={200} alt="Viral Sachde" className="rounded-full" />
           </div>
         </section>
-        <section id="resume" className="container mx-auto py-12 px-4 md:py-24 md:px-6">
+        <section id="resume" className="container mx-auto py-12 px-4 md:py-20 md:px-6">
           <div className="space-y-4 text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl ">Get resume.</h2>
             <p className="text-muted-foreground">
-              Feel free to reach out to me for any inquiries or collaboration opportunities.
+              Open to inquiries and collaboration opportunities. Please feel free to reach out.
             </p>
 
           </div>
 
         </section>
 
-        <section id="contact" className="container mx-auto py-12 px-4 md:py-24 md:px-6">
+        <section id="contact" className="container mx-auto py-12 px-4 md:py-20 md:px-6">
           <div className="space-y-4 text-center">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl ">Get in touch.</h2>
             <p className="text-muted-foreground">
