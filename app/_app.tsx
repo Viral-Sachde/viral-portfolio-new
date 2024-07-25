@@ -14,12 +14,12 @@ const montserrat = Montserrat({
   variable: '--font-montserrat',
 });
 
-// const denton1 = localFont({ src: './public/font' })
+const denton = localFont({ src: './public/font/denton/denton_test_bold_700-webfont.ttf' })
 // const gilroy2 = localFont({ src: './public/gilroy.ttf' })
 
 export default function MyApp({ Component, pageProps }: any) {
   return (
-    <main className={`${playfairDisplay.variable} ${montserrat.variable}`}>
+    <main className={`${playfairDisplay.variable} ${montserrat.variable} ${denton.variable}`}>
       <Component {...pageProps} />
     </main>
 

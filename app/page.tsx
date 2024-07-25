@@ -79,7 +79,7 @@ export default function Component() {
         </section>
         <section id="skills" className="container mx-auto py-12 px-4 md:py-20 md:px-6">
           <div className="space-y-4 text-center">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl ">Skills.</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-montserrat">Skills.</h2>
             <p className="text-muted-foreground">
               I have a diverse set of skills that allow me to tackle a wide range of web development projects.
             </p>
@@ -125,7 +125,7 @@ export default function Component() {
         </section>
         <section id="experience" className="container mx-auto py-12 px-4 md:py-20 md:px-6">
           <div className="space-y-4 text-center">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl ">Experiances.</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-montserrat">Experiances.</h2>
             <p className="text-muted-foreground">
               I have worked on a variety of projects and gained valuable experience in the industry.
             </p>
@@ -307,7 +307,7 @@ export default function Component() {
         </section>
         <section id="resume" className="container mx-auto py-12 px-4 md:py-20 md:px-6">
           <div className="space-y-4 text-center">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl ">Get resume.</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-montserrat">Get resume.</h2>
             <p className="text-muted-foreground">
               Open to inquiries and collaboration opportunities. Please feel free to reach out.
             </p>
@@ -318,7 +318,7 @@ export default function Component() {
 
         <section id="contact" className="container mx-auto py-12 px-4 md:py-20 md:px-6">
           <div className="space-y-4 text-center">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl ">Get in touch.</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-montserrat ">Get in touch.</h2>
             <p className="text-muted-foreground">
               Feel free to reach out to me for any inquiries or collaboration opportunities.
             </p>
