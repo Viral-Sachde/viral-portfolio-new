@@ -19,7 +19,7 @@ const denton = localFont({ src: './public/font/denton/denton_test_bold_700-webfo
 
 export default function MyApp({ Component, pageProps }: any) {
   return (
-    <main className={`${playfairDisplay.variable} ${montserrat.variable} ${denton.variable}`}>
+    <main className={`${playfairDisplay.variable} ${montserrat.variable} ${denton}`}>
       <Component {...pageProps} />
     </main>
 
